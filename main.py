@@ -19,6 +19,9 @@ def main():
 
         if scelta == "1":
             nuovo_nome = input("Inserisci il nuovo nome del centro fieristico: ")
+            lingotto.nome_fiera= nuovo_nome
+            print(f"Il nuovo nome della fiera è {nuovo_nome}")
+
             # TODO: Aggiorna il nome del centro fieristico
 
         elif scelta == "2":
